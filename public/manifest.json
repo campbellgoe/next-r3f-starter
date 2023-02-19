@@ -1,0 +1,10 @@
+{
+  "name": "R3F Next Starter",
+  "short_name": "Starter",
+  "icons": [],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
