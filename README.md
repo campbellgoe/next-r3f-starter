@@ -1,4 +1,4 @@
-# R3F Next Starter
+# Next R3F Starter
 
 An Next.js starter project for [React Three Fiber](https://github.com/pmndrs/react-three-fiber) inspired by [React-Three-Next starter](https://github.com/pmndrs/react-three-next).
 
