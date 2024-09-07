@@ -16,11 +16,6 @@ const nextConfig = {
   //   styledComponents: true,
   // },
 
-  // Enable Next.js 13 experimental features
-  experimental: {
-    appDir: true,
-    typedRoutes: true,
-  },
   images: {},
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   webpack(config, { isServer }) {
