@@ -20,7 +20,12 @@ export default function Page() {
   return (
     <>
     <ErrorBoundary fallback={<div>Error</div>}>
-      <Suspense fallback={<div>Not loading</div>}>
+      <Suspense fallback={null}>
+<Canvas
+      gl={{ physicallyCorrectLights: true }}
+      camera={{ position: [-6, 0, 16] as [x:number, y:number, z:number], fov: 36 }}
+      shadows
+    >
         {/* <color attach="background" args={[0xe2f4df]} /> */}
         <ambientLight />
         <directionalLight intensity={1.1} position={[0.5, 0, 0.866]} />
@@ -33,6 +38,7 @@ export default function Page() {
             <shadowMaterial />
           </mesh>
         </Suspense>
+        </Canvas>
         {/* <EffectComposer>
           <Bloom intensity={1.5} luminanceThreshold={0.9} />
         </EffectComposer> */}
