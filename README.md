@@ -5,13 +5,21 @@ An Next.js starter project for [React Three Fiber](https://github.com/pmndrs/rea
 ## Install
 
 ```
-$ yarn
+yarn
+```
+or
+```
+npm i
 ```
 
 ## Run
 
 ```
 $ yarn dev
+```
+or
+```
+npm run dev
 ```
 
 ## Features
